@@ -14,14 +14,14 @@ The LoRa network is essentially a public, free, long-range wifi network.  It has
 - Battery PCB (e.g. [Wemos Shield](https://www.exp-tech.de/en/platforms/wemos/9153/wemos-battery-shield))
 
 ## Firmware/Software
-- (In Progress). Current Status:
-  - Able to send messages over TTN
-  - Able to receive GPS signal
-  - Need to combine, to send GPS signal over TTN and fully test
+- Relies upon the following libraries:
+  - [LMIC-Arduino](https://github.com/matthijskooijman/arduino-lmic)
+  - [TinyGPSPlus](https://github.com/mikalhart/TinyGPSPlus)
+  - [NeoPixelBus](https://github.com/Makuna/NeoPixelBus)
 
 ## Network (Used for receiving LoRa messages and automating tasks)
 - [The Things Network (TTN)](https://www.thethingsnetwork.org/)
 
 ## Logging/"Database"
 - Google Sheets via TTN
-- If This Then That (IFTT) via TTN
+- "If This Then That" (IFTT) via TTN
